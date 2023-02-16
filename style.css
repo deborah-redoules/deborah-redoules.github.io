@@ -19,6 +19,12 @@ h2,h3{
     font-weight: 100;
 }
 
+img{
+    max-width: 100%;
+    display: block;
+    height:auto;
+}
+
 .header{
     display:grid;
     grid-template-columns: 1220px auto;
@@ -43,7 +49,7 @@ h2,h3{
     margin-top: 6px;
 }
 
-.headerr h1 span{
+.page-header h1 span{
     display: block;
     font-size: 16px;
     font-family: 'Mukta Vaani', sans-serif;
@@ -63,23 +69,95 @@ h2,h3{
 .projects img{
     max-width: 100%;
     display: block;
-    transition: 0.5s;
+    transition: 0,5s;
 }
 
 .projects a:hover img{
     transform:scale(0.9);
 }
 
-.projectss{
+.page-3columns-projects{
     display:grid;
     grid-template-columns:1fr 1fr 1fr;
     gap:24px;
     padding: 40px;
+    background: rgb(228, 223, 223);
+    margin-top: 100px;
 }
 
-.projectss img{
+.page-2columns-projects{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:24px;
+    padding: 40px;
+    background: rgb(228, 223, 223);
+    margin-top: 100px;
+}
+
+.page-moleskine-projects{
+    display:grid;
+    grid-template-columns:1fr 2fr;
+    gap:24px;
+    padding: 40px;
+    background: rgb(228, 223, 223);
+    margin-top: 100px;
+}
+
+.page-jpo-projects{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    gap:24px;
+    padding: 40px;
+    background: rgb(228, 223, 223);
+    margin-top: 100px;
+}
+
+.cnam3{
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.jpo4{
+    grid-column: span 3;
+    grid-row: span 2;
+}
+
+.riso4{
+    grid-column: span 3;
+    grid-row: span 2;
+}
+
+.toh2{
+    grid-column: span 2;
+    grid-row: span 1;
+}
+
+.moleskine2{
+    grid-column: span 2;
+    grid-row: span 1;
+}
+
+.moleskine3{
+    grid-column: span 2;
+    grid-row: span 1;
+}
+
+.page-3columns-projects img{
     max-width: 100%;
     display: grid;
+}
+
+.main-grid{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background: white;
+}
+
+.text{
+    font-family: 'Mukta Vaani', sans-serif;
+    margin-top: 120px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 .footer{
@@ -90,13 +168,13 @@ h2,h3{
     gap:12px;
 }
 
-.footerr{
+.page-footer{
     display:grid;
     background: white;
     padding: 50px;
 }
 
-.footerr a{
+.page-footer a{
     text-decoration: none;
 	color: currentColor;
     font-family: 'Mukta Vaani', sans-serif;
@@ -113,4 +191,9 @@ h2,h3{
 
 .widecont { 
     overflow:hidden;
+}
+
+.video{
+    display: block;
+    max-width: 50%;
 }
