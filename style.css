@@ -1,0 +1,116 @@
+body{
+    background: rgb(228, 223, 223);
+    color: black;
+    margin: 0;
+}
+
+h1{
+    color: black;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 30px;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+h2,h3{
+    color: black;
+    font-family: 'Mukta Vaani', sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.header{
+    display:grid;
+    grid-template-columns: 1220px auto;
+    gap: 30px;
+    align-items: baseline;
+    background: white;
+    padding: 40px;
+}
+
+.header a{
+	text-decoration: none;
+	color: currentColor;
+    font-family: 'Mukta Vaani', sans-serif;
+}
+
+.header h1 span{
+    display: block;
+    font-size: 16px;
+    font-family: 'Mukta Vaani', sans-serif;
+    color:#3d3d3d;
+    font-weight: 100;
+    margin-top: 6px;
+}
+
+.headerr h1 span{
+    display: block;
+    font-size: 16px;
+    font-family: 'Mukta Vaani', sans-serif;
+    color:#3d3d3d;
+    font-weight: 100;
+    margin-top: 6px;
+}
+
+.projects{
+    display:grid;
+    grid-template-columns:repeat(auto-fill,330px);
+    gap:30px;
+    justify-content: center;
+    padding: 45px;
+}
+
+.projects img{
+    max-width: 100%;
+    display: block;
+    transition: 0.5s;
+}
+
+.projects a:hover img{
+    transform:scale(0.9);
+}
+
+.projectss{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    gap:24px;
+    padding: 40px;
+}
+
+.projectss img{
+    max-width: 100%;
+    display: grid;
+}
+
+.footer{
+    display:grid;
+    grid-template-columns: 50px 50px auto;
+    background: white;
+    padding:50px;
+    gap:12px;
+}
+
+.footerr{
+    display:grid;
+    background: white;
+    padding: 50px;
+}
+
+.footerr a{
+    text-decoration: none;
+	color: currentColor;
+    font-family: 'Mukta Vaani', sans-serif;
+}
+
+.propos{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    margin-left: 40px;
+    margin-right: 80px;
+    margin-bottom: 80px;
+}
+
+.widecont { 
+    overflow:hidden;
+}
