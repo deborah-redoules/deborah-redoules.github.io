@@ -15,7 +15,7 @@ h1{
 h2,h3{
     color: black;
     font-family: 'Mukta Vaani', sans-serif;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 100;
 }
 
@@ -60,7 +60,7 @@ img{
 
 .projects{
     display:grid;
-    grid-template-columns:repeat(auto-fill,330px);
+    grid-template-columns:repeat(auto-fill,400px);
     gap:30px;
     justify-content: center;
     padding: 45px;
@@ -69,7 +69,7 @@ img{
 .projects img{
     max-width: 100%;
     display: block;
-    transition: 0,5s;
+    transition: 0.5s;
 }
 
 .projects a:hover img{
@@ -132,13 +132,38 @@ img{
     grid-row: span 1;
 }
 
-.moleskine2{
+.moleskine5{
     grid-column: span 2;
     grid-row: span 1;
 }
 
-.moleskine3{
+.moleskine6{
     grid-column: span 2;
+    grid-row: span 1;
+}
+
+.moleskine7{
+    grid-column: span 1;
+    grid-row: span 2;
+}
+
+.reliure5{
+    grid-column: span 2;
+    grid-row: span 1;
+}
+
+.lumiere4{
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.lumiere{
+    grid-column: span 3;
+    grid-row: span 2;
+}
+
+.rectanglegris{
+    grid-column: span 3;
     grid-row: span 1;
 }
 
@@ -158,6 +183,12 @@ img{
     margin-top: 120px;
     margin-left: 40px;
     margin-right: 40px;
+}
+
+.text a{
+	text-decoration: none;
+	color: currentColor;
+    font-family: 'Mukta Vaani', sans-serif;
 }
 
 .footer{
@@ -196,4 +227,12 @@ img{
 .video{
     display: block;
     max-width: 50%;
+}
+
+.construction{
+    color: black;
+    font-family: 'Mukta Vaani', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    margin-left: 40px;
 }
