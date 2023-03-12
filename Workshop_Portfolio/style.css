@@ -1,0 +1,238 @@
+body{
+    background: rgb(228, 223, 223);
+    color: black;
+    margin: 0;
+}
+
+h1{
+    color: black;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 30px;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+h2,h3{
+    color: black;
+    font-family: 'Mukta Vaani', sans-serif;
+    font-size: 13px;
+    font-weight: 100;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+    height:auto;
+}
+
+.header{
+    display:grid;
+    grid-template-columns: 1220px auto;
+    gap: 30px;
+    align-items: baseline;
+    background: white;
+    padding: 40px;
+}
+
+.header a{
+	text-decoration: none;
+	color: currentColor;
+    font-family: 'Mukta Vaani', sans-serif;
+}
+
+.header h1 span{
+    display: block;
+    font-size: 16px;
+    font-family: 'Mukta Vaani', sans-serif;
+    color:#3d3d3d;
+    font-weight: 100;
+    margin-top: 6px;
+}
+
+.page-header h1 span{
+    display: block;
+    font-size: 16px;
+    font-family: 'Mukta Vaani', sans-serif;
+    color:#3d3d3d;
+    font-weight: 100;
+    margin-top: 6px;
+}
+
+.projects{
+    display:grid;
+    grid-template-columns:repeat(auto-fill,400px);
+    gap:30px;
+    justify-content: center;
+    padding: 45px;
+}
+
+.projects img{
+    max-width: 100%;
+    display: block;
+    transition: 0.5s;
+}
+
+.projects a:hover img{
+    transform:scale(0.9);
+}
+
+.page-3columns-projects{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    gap:24px;
+    padding: 40px;
+    background: rgb(228, 223, 223);
+    margin-top: 100px;
+}
+
+.page-2columns-projects{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:24px;
+    padding: 40px;
+    background: rgb(228, 223, 223);
+    margin-top: 100px;
+}
+
+.page-moleskine-projects{
+    display:grid;
+    grid-template-columns:1fr 2fr;
+    gap:24px;
+    padding: 40px;
+    background: rgb(228, 223, 223);
+    margin-top: 100px;
+}
+
+.page-jpo-projects{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    gap:24px;
+    padding: 40px;
+    background: rgb(228, 223, 223);
+    margin-top: 100px;
+}
+
+.cnam3{
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.jpo4{
+    grid-column: span 3;
+    grid-row: span 2;
+}
+
+.riso4{
+    grid-column: span 3;
+    grid-row: span 2;
+}
+
+.toh2{
+    grid-column: span 2;
+    grid-row: span 1;
+}
+
+.moleskine5{
+    grid-column: span 2;
+    grid-row: span 1;
+}
+
+.moleskine6{
+    grid-column: span 2;
+    grid-row: span 1;
+}
+
+.moleskine7{
+    grid-column: span 1;
+    grid-row: span 2;
+}
+
+.reliure5{
+    grid-column: span 2;
+    grid-row: span 1;
+}
+
+.lumiere4{
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.lumiere{
+    grid-column: span 3;
+    grid-row: span 2;
+}
+
+.rectanglegris{
+    grid-column: span 3;
+    grid-row: span 1;
+}
+
+.page-3columns-projects img{
+    max-width: 100%;
+    display: grid;
+}
+
+.main-grid{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background: white;
+}
+
+.text{
+    font-family: 'Mukta Vaani', sans-serif;
+    margin-top: 120px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.text a{
+	text-decoration: none;
+	color: currentColor;
+    font-family: 'Mukta Vaani', sans-serif;
+}
+
+.footer{
+    display:grid;
+    grid-template-columns: 50px 50px auto;
+    background: white;
+    padding:50px;
+    gap:12px;
+}
+
+.page-footer{
+    display:grid;
+    background: white;
+    padding: 50px;
+}
+
+.page-footer a{
+    text-decoration: none;
+	color: currentColor;
+    font-family: 'Mukta Vaani', sans-serif;
+}
+
+.propos{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    margin-left: 40px;
+    margin-right: 80px;
+    margin-bottom: 80px;
+}
+
+.widecont { 
+    overflow:hidden;
+}
+
+.video{
+    display: block;
+    max-width: 50%;
+}
+
+.construction{
+    color: black;
+    font-family: 'Mukta Vaani', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    margin-left: 40px;
+}
